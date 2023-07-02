@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(112, 154, 252);
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#container {
+    position: relative;
+    width: 500px;
+    height:100%;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table {
+    align-items: center;
+	justify-content: center;
+    position: absolute;
+}
+
+label {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
